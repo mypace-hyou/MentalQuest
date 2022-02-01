@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class itemUiScript : MonoBehaviour
+public class mapUiScript : MonoBehaviour
 {
+    
     void Start()
     {
 
     }
 
+    // Update is called once per frame
     void Update()
     {
-
+        
     }
 }

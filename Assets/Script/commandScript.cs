@@ -5,19 +5,10 @@ using UnityEngine;
 /// <summary></summary>
 public class commandScript : MonoBehaviour
 {
-    /// <summary>コマンドの現在位置</summary>
+    public int GenerateNum;
     public int num;
-    public GameObject[] UiObj;
-    public Transform[] UiPos;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] GameObject AllUiObj;
+    public GameObject[] UiObj = new GameObject[10];
+    /// <summary>コマンドの現在位置</summary>
+    public Transform[] UiPos = new Transform[10];
 }
